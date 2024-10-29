@@ -12,7 +12,7 @@ class Solution:
 
 if __name__ == "__main__":
     solution = Solution()
-    word1 = "ab"
+    word1 = "abc"
     word2 = "pqrs"
     result = solution.mergeAlternately(word1 , word2)
     print(result)
