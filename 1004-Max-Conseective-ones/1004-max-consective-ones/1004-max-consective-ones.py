@@ -14,6 +14,6 @@ class Solution:
                     zero_count -= 1
                 start += 1
 
-            max_l = max(max_l, i - start + 1)
+            max_l = max(max_l, i - start)
 
         return max_l
